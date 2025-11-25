@@ -55,7 +55,7 @@ export const faqItems: FaqItem[] = [
   {
     question: "Annual Percentage Rate (APR)",
 answer:
-  "Here at Trustedonlineloans we offer APR rates ranging from 4.95% minimum to 35.95% maximum." +
+  "Here at RotboLoans we offer APR rates ranging from 4.95% minimum to 35.95% maximum." +
   "The APR you may be offered depends on different factors, including your personal situation and financial standing. By completing our loan offer form you shall receive details of the APR and full terms of any loan offered to you." +
   "The actual interest rate you may be offered depends on several factors: your credit score, financial history, income, etc. Contact your lender for more information about the APR you may receive and the terms of your loan agreement.",
   },
@@ -126,5 +126,6 @@ export const footerConfig = {
   ],
   disclaimer: `RotboLoans is not an offer or solicitation to lend. We do not make any loan or credit decisions and are not representatives, brokers or agents of any lender. Participating lenders offer loans from $200 up to $5,000. Not all lenders can offer you amounts up to $5,000. Our service is not available in all states. Submission of a request through this website does not guarantee that you will receive a loan offer or an offer you'll be satisfied with. Funds transfer time may vary depending on your lender and/or financial institution. Credit checks may be performed with the three reporting credit bureaus: Experian, Equifax, and TransUnion. Submission of a request means you are authorizing the lenders to check your creditworthiness and your personal details. This service is not a solicitation for loan products and does not constitute a loan offer for any loan products that are prohibited by state law. This service is void where prohibited.`,
 };
+
 
 
