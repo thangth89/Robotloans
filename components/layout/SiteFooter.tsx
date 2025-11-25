@@ -22,7 +22,7 @@ const year = new Date().getFullYear();
       <section className="footer-main">
         <div className="page-container footer-main__inner">
           <div className="footer-main__left">
-            <div className="footer-main__brand">Trusted Online Loans</div>
+            <div className="footer-main__brand">Robot Loans</div>
             <ul className="footer-main__links">
               {footerConfig.links.map((link) => (
                 <li key={link.label}>{link.label}</li>
@@ -46,3 +46,4 @@ const year = new Date().getFullYear();
     </footer>
   );
 }
+
