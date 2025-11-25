@@ -119,9 +119,9 @@ body {
    line-height: 1;
 }
 .site-header__logo-tagline {
-  font-size: 11px;        /* chữ nhỏ */
-  font-weight: 400;       /* bình thường hoặc 500 nếu muốn hơi đậm */
-  color: #6b7280;         /* màu xám nhẹ */
+  font-size: 12px;        /* chữ nhỏ */
+  font-weight: 500;       /* bình thường hoặc 500 nếu muốn hơi đậm */
+  color: #ff0000;         /* màu xám nhẹ */
   line-height: 1;
 }
 /* Hero (giống layout Trusted Online Loans) */
