@@ -39,11 +39,12 @@ const year = new Date().getFullYear();
         <div className="page-container footer-bottom__inner">
           <hr className="footer-bottom__divider" />
           <p className="footer-bottom__copy">
-            COPYRIGHT © {year} TRUSTEDONLINELOANS.COM ALL RIGHTS RESERVED.
+            COPYRIGHT © {year} ROBOTLOANS.COM ALL RIGHTS RESERVED.
           </p>
         </div>
       </section>
     </footer>
   );
 }
+
 
