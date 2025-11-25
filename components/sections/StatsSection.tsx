@@ -13,7 +13,7 @@ function StatsIcon({ index }: StatsIconProps) {
     strokeLinejoin: "round" as const,
     width: 64,  // Kích thước to
     height: 64,
-    "aria-hidden": "true",
+    "aria-hidden": true,
   };
 
   switch (index) {
@@ -111,4 +111,5 @@ export default function StatsSection() {
       </div>
     </section>
   );
+
 }
