@@ -1,0 +1,860 @@
+/* Reset nhẹ nhàng */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --header-height: 80px; /* bạn có thể chỉnh 80 → 84 → 88 nếu muốn cao hơn */
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  background-color: #f5f7fb;
+  color: #111827;
+}
+
+/* Layout chung */
+.page-body {
+  min-height: 100vh;
+}
+
+.site-root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.site-main {
+  flex: 1;
+  padding-top: calc(var(--header-height) + 8px);
+}
+
+.page-container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* Buttons */
+.button {
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 12px 28px;
+  border-radius: 999px;
+  font-size: 15px;
+  transition: background-color 0.15s ease, box-shadow 0.15s ease,
+  transform 0.05s ease;
+  text-decoration: none;
+}
+
+.button--primary {
+  background-color: #16a34a;
+  color: #ffffff;
+  box-shadow: 0 14px 28px rgba(22, 163, 74, 0.45);
+}
+
+.button--primary:hover {
+  background-color: #15803d;
+  box-shadow: 0 8px 16px rgba(0, 48, 87, 0.25);
+  transform: translateY(-1px);
+}
+
+/* Header */
+.site-header {
+  position: fixed;             
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.site-header__inner {
+  min-height: var(--header-height);
+  padding: 16px 0;
+  display: flex;
+  align-items: center;
+}
+
+.site-header__logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #16a34a;  /* hoặc chọn màu bạn muốn, ví dụ #1d1b4c */
+}
+
+.site-header__logo-icon {
+  width: 38px;
+  height: 38px;
+  border-radius: 999px;
+  background: #15b34a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.site-header__logo-name {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+/* Hero (giống layout Trusted Online Loans) */
+.hero {
+  background-color: #ffffff;
+  padding: 48px 0 32px;
+  scroll-margin-top: calc(var(--header-height) + 8px);
+}
+
+.hero__inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  gap: 56px;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .hero__inner {
+    grid-template-columns: 1fr;
+  }
+}
+
+.hero__left {
+  max-width: 540px;
+}
+
+.hero__label {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  color: #6b7280;
+  margin-bottom: 10px;
+}
+
+.hero__title {
+  font-size: 48px;
+  line-height: 1.05;
+  font-weight: 800;
+  margin: 0;
+  color: #020617;
+}
+
+.hero__title-accent {
+  color: #16a34a;
+}
+
+.hero__subtitle {
+  margin-top: 14px;
+  font-size: 18px;
+  color: #4b5563;
+}
+
+.hero__amount {
+  margin-top: 30px;
+}
+
+.hero__amount-label {
+  font-size: 16px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 10px;
+}
+
+/* Card dropdown số tiền */
+.hero-amount-card {
+  position: relative;
+  max-width: 520px;
+  border-radius: 20px;
+  border: 2px solid #22c55e;
+  background-color: #ffffff;
+  box-shadow: 0 12px 30px rgba(34, 197, 94, 0.45);
+  overflow: visible;
+  margin-bottom: 28px;  
+}
+
+.hero-amount-card__select {
+  width: 100%;
+  padding: 18px 48px 18px 22px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #111827;
+  border: none;
+  background: transparent;
+}
+
+.hero-amount-card__select--button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+
+/* menu xổ xuống: chỉ hiện 4-5 dòng, có thanh cuộn */
+.hero-amount-card__menu {
+  position: absolute;
+  left: -2px;
+  right: -2px;
+  top: calc(100% + 4px);
+  border-radius: 16px;
+  background-color: #ffffff;
+  box-shadow: 0 16px 36px rgba(15, 23, 42, 0.3);
+  max-height: 180px;          /* ~4–5 dòng */
+  overflow-y: auto;           /* thanh cuộn */
+  z-index: 20;
+}
+
+/* mỗi option */
+.hero-amount-card__option {
+  width: 100%;
+  padding: 10px 18px;
+  text-align: left;
+  font-size: 16px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: #111827;
+}
+
+.hero-amount-card__option:hover {
+  background-color: #e5f9ee;
+}
+
+.hero-amount-card__option.is-active {
+  background-color: #d1fae5;
+  font-weight: 700;
+}
+
+.hero__primary-button {
+  margin-top: 12px;
+  width: 100%;
+  max-width: 360px;
+  font-size: 16px;
+  border-radius: 999px;
+  position: static;  
+}
+
+/* badge bảo mật phía dưới nút */
+.hero__security {
+  margin-top: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.hero__security-badge {
+  border-radius: 999px;
+  border: 1px solid #d1d5db;
+  padding: 4px 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #374151;
+  background-color: #f9fafb;
+}
+
+.hero__legal {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #6b7280;
+  max-width: 620px;
+}
+
+/* Phần hình bên phải */
+.hero__right {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-graphic {
+  position: relative;
+  width: 100%;
+  max-width: 380px;
+  padding-top: 90%;
+}
+
+/* nền xanh lá bo tròn + shape */
+.hero-graphic__bg {
+  position: absolute;
+  inset: 0;
+  border-radius: 40px;
+  background:
+    radial-gradient(circle at 20% 0%, #bbf7d0 0, #bbf7d0 32%, transparent 70%),
+    linear-gradient(135deg, #16a34a 0%, #16a34a 60%, #15803d 100%);
+}
+
+/* ảnh gia đình đặt phía trước */
+.hero-graphic__image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 40px;
+  clip-path: inset(0 round 40px);
+}
+
+/* pill trắng */
+.hero-graphic__pill {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffffff;
+  border-radius: 999px;
+  padding: 8px 18px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #111827;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.18);
+  white-space: nowrap;
+}
+
+.hero-graphic__pill--top {
+  top: -18px;
+}
+
+.hero-graphic__pill--bottom {
+  bottom: -18px;
+}
+
+/* đường line dưới hero */
+.hero__divider {
+  margin-top: 32px;
+  height: 1px;
+  background-color: #e5e7eb;
+}
+
+/* Badge */
+.hero-art__badge {
+  position: absolute;
+  left: 12px;
+  right: 12px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background-color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+  color: #111827;
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.16);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-art__badge--top {
+  top: -16px;
+}
+
+.hero-art__badge--bottom {
+  bottom: -16px;
+}
+
+/* Stats */
+.stats {
+  background-color: #ffffff;
+  padding: 48px 0 52px;
+}
+
+.stats__title {
+  font-size: 32px;
+  line-height: 1.25;
+  font-weight: 700;
+  text-align: center;
+  max-width: 980px;
+  margin: 0 auto 32px;
+  color: #111827;
+}
+
+.stats__highlight {
+  color: #16a34a; /* 2M+ và 7K+ màu xanh */
+}
+
+.stats__grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 24px;
+}
+
+@media (max-width: 1024px) {
+  .stats__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .stats__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Card chung */
+.stats-card {
+  border-radius: 32px;
+  padding: 40px 32px 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 18px 36px rgba(15, 23, 42, 0.22);
+}
+
+/* Mỗi card một màu như bản gốc */
+.stats-card--1 {
+  background-color: #003057; /* navy */
+  color: #ffffff;
+}
+
+.stats-card--2 {
+  background-color: #c7ef8f; /* light green */
+  color: #111827;
+}
+
+.stats-card--3 {
+  background-color: #1f8edb; /* blue */
+  color: #ffffff;
+}
+
+.stats-card--4 {
+  background-color: #21c34a; /* strong green */
+  color: #ffffff;
+}
+
+.stats-card__icon {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff; /* icon trắng mặc định */
+}
+
+.stats-card__icon svg {
+  width: 100%;
+  height: 100%;
+  stroke: currentColor;
+  fill: none;
+}
+
+.stats-card--2 .stats-card__icon {
+  border-color: #003057; /* nền sáng nên viền đậm */
+}
+
+/* Text */
+.stats-card__text {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+/* How it works */
+.hiw {
+  padding: 40px 0;
+  background-color: #ffffff;
+}
+
+.hiw__header {
+  max-width: 640px;
+  margin: 0 auto 28px;
+  text-align: center;
+}
+
+.hiw__title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #16a34a;
+  margin-bottom: 8px;
+}
+
+.hiw__intro {
+  font-size: 14px;
+  color: #4b5563;
+}
+
+.hiw__grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+@media (max-width: 900px) {
+  .hiw__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.hiw-step {
+  background-color: #f9fafb;
+  border-radius: 22px;
+  padding: 20px 18px 18px;
+  box-shadow: 0 8px 16px rgba(148, 163, 184, 0.25);
+}
+
+.hiw-step__number {
+  width: 32px;
+  height: 32px;
+  border-radius: 999px;
+  background-color: #16a34a;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.hiw-step__title {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.hiw-step__body {
+  font-size: 14px;
+  color: #4b5563;
+}
+
+/* Mid CTA */
+.mid-cta {
+  padding: 44px 0;
+  background-color: #f9fafb;
+}
+
+.mid-cta__inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.2fr);
+  gap: 32px;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .mid-cta__inner {
+    grid-template-columns: 1fr;
+  }
+}
+
+.mid-cta__image {
+  display: flex;
+  justify-content: center;
+}
+
+.mid-cta__image-box {
+  width: 100%;
+  max-width: 360px;
+  padding-top: 80%;       /* giữ để khung luôn theo tỉ lệ 4:5 như cũ */
+  border-radius: 28px;
+  box-shadow: 0 18px 30px rgba(180, 83, 9, 0.35);
+
+  /* 👉 thay gradient bằng ảnh */
+  background-image: url("/mid-cta.webp");
+  background-size: cover;        /* ảnh phủ kín khung */
+  background-position: center;   /* canh giữa */
+  background-repeat: no-repeat;
+}
+
+.mid-cta__content {
+  max-width: 520px;
+}
+
+.mid-cta__title {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.mid-cta__subtitle {
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 4px;
+}
+
+.mid-cta__text {
+  font-size: 14px;
+  color: #4b5563;
+  margin-top: 8px;
+}
+
+.mid-cta__list {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0;
+}
+
+.mid-cta__list-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.mid-cta__list-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background-color: #16a34a;
+}
+
+.mid-cta__button {
+  margin-top: 8px;
+}
+
+/* FAQ */
+.faq {
+  padding: 44px 0;
+  background-color: #ffffff;
+}
+
+.faq__inner {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: 32px;
+}
+
+@media (max-width: 900px) {
+  .faq__inner {
+    grid-template-columns: 1fr;
+  }
+}
+
+.faq__label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #16a34a;
+  margin-bottom: 4px;
+}
+
+.faq__title {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 0 8px;
+}
+
+.faq__intro {
+  font-size: 14px;
+  color: #4b5563;
+}
+
+.faq-item {
+  background-color: #f9fafb;
+  border-radius: 18px;
+  margin-bottom: 8px;
+  border: 1px solid #e5e7eb;
+}
+
+.faq-item[open] {
+  background-color: #ffffff;
+}
+
+.faq-item__summary {
+  padding: 12px 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.faq-item__summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item__chevron {
+  margin-left: 12px;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.faq-item__content {
+  padding: 0 16px 12px 16px;
+  font-size: 13px;
+  color: #4b5563;
+}
+
+/* Repayment */
+.repayment {
+  padding: 44px 0 52px;
+  background-color: #f9fafb;
+}
+
+.repayment__label {
+  font-size: 20px;
+  font-weight: 600;
+  color: #16a34a;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.repayment__title {
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 18px;
+}
+
+.repayment__table-wrapper {
+  overflow-x: auto;
+}
+
+.repayment__table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 10px 22px rgba(148, 163, 184, 0.35);
+}
+
+.repayment__table thead {
+  background-color: #16a34a;
+  color: #ffffff;
+}
+
+.repayment__table th,
+.repayment__table td {
+  padding: 10px 12px;
+  font-size: 16px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: center;
+}
+
+.repayment__table th:first-child,
+.repayment__table td:first-child {
+  text-align: left;
+}
+
+.repayment__table tbody tr:nth-child(even) {
+  background-color: #f9fafb;
+}
+
+.repayment__note {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #4b5563;
+}
+
+/* Footer */
+.site-footer {
+  margin-top: auto;
+}
+
+/* CTA band */
+.footer-cta {
+  background-color: #e5f5ff;
+  padding: 32px 0;
+}
+
+.footer-cta__inner {
+  text-align: center;
+}
+
+.footer-cta__title {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 4px;
+}
+
+.footer-cta__subtitle {
+  font-size: 14px;
+  color: #4b5563;
+  margin: 0 0 12px;
+}
+
+/* Footer main */
+.footer-main {
+  background-color: #003057;
+  color: #e5e7eb;
+  padding: 32px 0 18px;
+}
+
+.footer-main__inner {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  gap: 32px;
+  font-size: 14px;
+}
+
+@media (max-width: 900px) {
+  .footer-main__inner {
+    grid-template-columns: 1fr;
+  }
+}
+
+.footer-main__brand {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.footer-main__links {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px;
+}
+
+.footer-main__links li {
+  margin-bottom: 4px;
+}
+
+.footer-main__email a {
+  color: #bfdbfe;
+  text-decoration: none;
+}
+
+.footer-main__disclaimer {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.footer-main__copy {
+  margin-top: 14px;
+  font-size: 14px;
+  color: #9ca3af;
+}
+
+
+/* Footer bottom: gạch trắng + chữ căn giữa */
+.footer-bottom {
+  background-color: #003057; /* cùng màu với footer-main */
+  padding: 10px 0 18px;
+}
+
+.footer-bottom__inner {
+  text-align: center;          /* căn giữa tất cả nội dung */
+}
+
+.footer-bottom__divider {
+  border: none;                /* bỏ style mặc định của <hr> */
+  border-top: 1px solid rgba(255, 255, 255, 0.4); /* gạch trắng mảnh */
+  margin: 0 0 10px;            /* cách chữ bên dưới một chút */
+}
+
+.footer-bottom__copy {
+  margin: 0;
+  font-size: 11px;
+  color: #e5e7eb;
+  letter-spacing: 0.16em;      /* chữ dạng “COPYRIGHT …” giống site gốc */
+  text-transform: uppercase;   /* toàn bộ in hoa */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
