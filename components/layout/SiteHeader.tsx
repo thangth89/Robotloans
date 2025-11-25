@@ -16,12 +16,13 @@ export default function SiteHeader() {
           />
         {/* chữ bên cạnh logo */}
           <div className="site-header__logo-text">
-            <span className="site-header__logo-name">Trusted Online Loans</span>
+            <span className="site-header__logo-name">Robot Loans</span>
             {/* nếu muốn có dòng nhỏ phía dưới thì bật dòng này */}
-            {/* <span className="site-header__logo-tagline">A smarter way to borrow</span> */}
+            <span className="site-header__logo-tagline">Trusted Online Loan Connection Service</span>
           </div>
         </Link>
       </div>
     </header>
   );
 }
+
