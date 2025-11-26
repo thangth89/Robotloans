@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { heroConfig } from "../../lib/loanSiteConfig";
 import StartRequestButton from "@/components/sections/StartRequestButton";
 
-const REQUEST_URL = "https://example.com"; // nếu muốn nút Start My Request mở link ngoài
+{/* const REQUEST_URL = "https://example.com"; // nếu muốn nút Start My Request mở link ngoài  */}
 
 export default function HeroSection() {
   const [isOpen, setIsOpen] = useState(false);
@@ -111,6 +111,7 @@ export default function HeroSection() {
     </section>
   );
 }
+
 
 
 
