@@ -917,6 +917,6 @@ html {
   text-decoration: underline;     /* gạch chân */
   text-decoration-thickness: 2px; /* độ dày gạch chân */
   text-underline-offset: 4px;     /* cách chữ một chút cho đẹp */
-  font-size: 24px;                /* tuỳ chỉnh */
+  font-size: 14px;                /* tuỳ chỉnh */
   font-weight: 500;
 }
