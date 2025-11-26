@@ -1,4 +1,5 @@
 // app/apply/page.tsx
+import SiteHeader from "../../components/layout/SiteHeader";
 import Script from "next/script";
 
 export default function ApplyPage() {
