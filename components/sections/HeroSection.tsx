@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { heroConfig } from "../../lib/loanSiteConfig";
+import StartRequestButton from "@/components/sections/StartRequestButton";
 
 const REQUEST_URL = "https://example.com"; // nếu muốn nút Start My Request mở link ngoài
 
@@ -72,8 +73,8 @@ export default function HeroSection() {
                 </div>
               )}
             </div>
-
-            {/* Nút mở link */}
+           <StartRequestButton />
+            {/* Nút mở link 
             <a
               href={"https://pmcloud1.com/c/l"}
               rel="noopener noreferrer"
@@ -81,7 +82,7 @@ export default function HeroSection() {
             >
               Start My Request
             </a>
-
+            */}
             {/* 3 badge bảo mật */}
             <div className="hero__security">
               <div className="hero__security-badge">DATA PROTECTED</div>
@@ -110,6 +111,7 @@ export default function HeroSection() {
     </section>
   );
 }
+
 
 
 
