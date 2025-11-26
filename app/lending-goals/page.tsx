@@ -6,7 +6,10 @@ import HeroSection from "../../components/sections/HeroSection";
 
 export default function LendingGoalsPage() {
   return (
-    <main className="page-container legal-page">
+    <div className="site-root">
+  <SiteHeader />
+    <main className="site-main">
+     <HeroSection />
       <h1 className="legal-page__title">Lending Goals</h1>
 
       {/* Lending Goals */}
