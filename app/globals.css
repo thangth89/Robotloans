@@ -920,3 +920,6 @@ html {
   font-size: 14px;                /* tuỳ chỉnh */
   font-weight: 500;
 }
+.apply-page {
+  padding-top: 100px; /* chỉnh 80–120px tùy chiều cao header thực tế */
+}
