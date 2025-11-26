@@ -75,7 +75,7 @@ export default function HeroSection() {
 
             {/* Nút mở link */}
             <a
-              href={https://pmcloud1.com/c/l}
+              href={"https://pmcloud1.com/c/l"}
               rel="noopener noreferrer"
               className="button button--primary hero__primary-button"
             >
@@ -110,4 +110,5 @@ export default function HeroSection() {
     </section>
   );
 }
+
 
