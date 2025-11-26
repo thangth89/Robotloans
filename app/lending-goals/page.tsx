@@ -186,5 +186,7 @@ export default function LendingGoalsPage() {
         </p>
       </section>
     </main>
+    <SiteFooter />
+</div>
   );
 }
