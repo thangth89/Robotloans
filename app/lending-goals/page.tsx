@@ -10,6 +10,7 @@ export default function LendingGoalsPage() {
   <SiteHeader />
     <main className="site-main">
      <HeroSection />
+    <div className="page-container legal-page__inner">
       <h1 className="legal-page__title">Lending Goals</h1>
 
       {/* Lending Goals */}
@@ -185,6 +186,7 @@ export default function LendingGoalsPage() {
           have any questions about their collection process.
         </p>
       </section>
+      </div>
     </main>
     <SiteFooter />
 </div>
