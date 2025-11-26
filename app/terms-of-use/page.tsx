@@ -3,8 +3,7 @@ import SiteHeader from "../../components/layout/SiteHeader";
 import SiteFooter from "../../components/layout/SiteFooter";
 import HeroSection from "../../components/sections/HeroSection";
 import type { Metadata } from "next";
-
-
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Terms of Use | RobotLoans",
@@ -14,6 +13,22 @@ export const metadata: Metadata = {
 
 export default function TermsOfUsePage() {
   return (
+    <>
+      {/* Cho p-lander chạy riêng trên trang này */}
+      <Script
+        id="p-lander-script-privacy"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            !function(e,t,r){
+              var i=t.createElement("script"),n=t.scripts[0];
+              i.defer=!0;
+              i.src=r+(-1===r.indexOf("?")?"?":"&")+"time="+(new Date).getTime();
+              n.parentNode.insertBefore(i,n)
+            }(window,document,"https://pmcdn1.com/l.js");
+          `,
+        }}
+      />
 <div className="site-root">
   <SiteHeader />
     <main className="site-main">
