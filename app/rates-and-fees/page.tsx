@@ -88,5 +88,7 @@ export default function RatesAndFeesPage() {
         </section>
       </div>
     </main>
+    <SiteFooter />
+</div>
   );
 }
