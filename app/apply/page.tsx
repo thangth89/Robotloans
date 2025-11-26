@@ -4,6 +4,8 @@ import Script from "next/script";
 
 export default function ApplyPage() {
   return (
+<div className="site-root">
+  <SiteHeader />
     <main className="apply-page">
       {/* SCRIPT TRACKING CHỈ DÙNG CHO PAGE NÀY */}
       <Script
@@ -50,5 +52,6 @@ export default function ApplyPage() {
         <div id="_lg_form_" />
       </div>
     </main>
+   </div>
   );
 }
