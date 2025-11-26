@@ -12,7 +12,10 @@ export const metadata: Metadata = {
 
 export default function RatesAndFeesPage() {
   return (
-    <main className="legal-page">
+    <div className="site-root">
+  <SiteHeader />
+    <main className="site-main">
+     <HeroSection />
       <div className="page-container">
         <header className="legal-page__header">
           <h1 className="legal-page__title">Rates and Fees</h1>
