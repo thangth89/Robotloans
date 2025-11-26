@@ -25,15 +25,15 @@ export default function PrivacyPolicyPage() {
         <section className="legal-section">
           <h2>Your privacy is safe with us</h2>
           <p>
-            We take your privacy seriously. This Privacy Policy explains how{" "}
-            {BRAND_NAME} (“we”, “us”, “our”) collects, uses, shares and protects
-            your information when you use our website at {BRAND_DOMAIN} and any
-            related services (together, the “Service”).
+            We address your privacy with care. We understand the importance of
+            personal data safety. And we are also well aware of the pressure the
+            modern world puts upon management of this information. To make our
+            privacy protection principles clear, we established this Privacy Policy. We
+            encourage you to read this section before you start using RobotLoas
           </p>
           <p>
-            By accessing or using our Service, you confirm that you have read
-            and understood this Privacy Policy and that you agree to the way we
-            handle your information as described here.
+            Please note that by using our platform you confirm that you agree with
+            our Privacy Policy.
           </p>
         </section>
 
