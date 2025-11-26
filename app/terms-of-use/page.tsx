@@ -16,6 +16,7 @@ export default function TermsOfUsePage() {
   <SiteHeader />
     <main className="site-main">
      <HeroSection />
+   <div className="page-container legal-page__inner">
       <h1 className="legal-page__title">Terms of Use</h1>
 
       <section className="legal-page__section">
@@ -202,6 +203,7 @@ export default function TermsOfUsePage() {
           us a message via our contact form.
         </p>
       </section>
+     </div>
     </main>
     <SiteFooter />
 </div>
