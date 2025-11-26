@@ -71,121 +71,91 @@ export default function PrivacyPolicyPage() {
 
         <section className="legal-section">
           <h2>2. Why we collect this information</h2>
-          <p>We use the information we collect for several purposes, such as:</p>
-          <ul>
-            <li>
-              Processing your request and attempting to match you with one or
-              more lenders or lending partners;
-            </li>
-            <li>
-              Operating, maintaining and improving the functionality of the
-              Service;
-            </li>
-            <li>
-              Performing analytics and research to better understand our
-              audience;
-            </li>
-            <li>
-              Providing customer support and responding to your questions;
-            </li>
-            <li>
-              Carrying out marketing and advertising activities, where allowed
-              by law;
-            </li>
-            <li>
-              Complying with legal obligations and enforcing our Terms of Use.
-            </li>
-          </ul>
+          <p>
+            Collecting personal details of users is necessary for business management,
+            technical support improvement and marketing research. We also need
+            your private data to process your application and get you connected with
+            one of our lenders.
+          </p>
         </section>
 
         <section className="legal-section">
           <h2>3. How we share your personally identifiable information</h2>
           <p>
-            By submitting your personal information through our online form, you
-            authorize us to share that information with lenders, non-lender
-            financial service providers and other partners in our network so
-            they can review your request and determine whether to offer you a
-            product or service.
+            By providing your personally identifiable information, you allow us to
+            process your application and connect you with a lender. That also means
+            that we have the right to share this information with a third party because
+            a lender cannot approve your loan without knowing anything about you.
           </p>
-          <p>We may also share your information with:</p>
-          <ul>
-            <li>
-              <strong>Affiliates and service providers</strong> – companies that
-              help us with operations, customer service, analytics, marketing,
-              data storage, payment processing or other business activities;
-            </li>
-            <li>
-              <strong>Marketing and advertising partners</strong> – to carry out
-              research, advertising, remarketing and similar activities;
-            </li>
-            <li>
-              <strong>Companies involved in a business transfer</strong> – if
-              we, or part of our business, are sold, merged or reorganized,
-              your information may be transferred as part of that transaction;
-            </li>
-            <li>
-              <strong>Law enforcement or government authorities</strong> – when
-              required by law, court order or to protect our rights, property or
-              safety or that of others.
-            </li>
-          </ul>
           <p>
-            Please note that lenders may independently verify your personal
-            information by checking consumer reporting agencies and other
-            databases. Such inquiries may affect your credit score. We are not
-            responsible for how lenders or other third parties use your
-            information once it has been shared with them; their own privacy
-            policies will apply.
+            Please note that lenders may verify your personal information by sending
+            requests to national databases and credit reporting agencies. Such
+            inquiries may affect your credit score.
           </p>
+          <p>
+            We may share some of your data with our affiliates, partners and other
+            accredited third parties for the purposes of business management,
+            security, advertising, marketing, consumer behavior research, consumer
+            support improvement.
+          </p>
+          <p>
+            We reserve the right to share your information with another company that
+            has acquired our business, a part of it, or fused with us. In case such a
+            situation takes place, it’s possible that we will inform you about these
+            changes by email or with an announcement posted on our website.
+          </p>
+          <p>
+            We may share your personally identifiable information if it is required by
+            the law and is necessary to proceed with a legal process or to protect our
+            rights.
+          </p>   
         </section>
 
         <section className="legal-section">
           <h2>4. How we share your non-personally identifiable information</h2>
           <p>
-            We may share aggregated or de-identified information (which does not
-            identify you personally) with third parties for purposes such as:
+            By collecting and sharing your non-personally identifiable information
+            with third parties, we improve our technical service, analyze the behavior
+            of our customers and gather web statistics important to management of
+            our business. We may share it with other third parties for these purposes.
           </p>
-          <ul>
-            <li>Website analytics and performance monitoring;</li>
-            <li>Improving products, services and user experience;</li>
-            <li>Marketing research and advertising effectiveness;</li>
-            <li>Security, fraud prevention and technical diagnostics.</li>
-          </ul>
         </section>
 
         <section className="legal-section">
           <h2>5. Links provided by third parties</h2>
           <p>
-            Our website may contain links to third-party websites or services.
-            These links are provided for your convenience only. We do not
-            control and are not responsible for the content, privacy practices
-            or security of those websites. When you follow a link to a
-            third-party site, you do so at your own risk and should review that
-            site’s own privacy policy and terms.
+            When browsing our website, you may come upon links to third parties’
+            websites. All these links are given to you only as a reference. You click
+            them on your own will. We do not manage those websites; therefore, we
+            cannot be held accountable for their content, privacy policy, terms and
+            practices as their management is beyond our responsibility and control.
           </p>
         </section>
 
         <section className="legal-section">
           <h2>6. Marketing practices</h2>
           <p>
-            By using our Service, you acknowledge that we, our affiliates and
-            marketing partners may contact you using the contact details you
-            provide (such as email address, phone number or mailing address)
-            with information about products, services, promotions and other
-            marketing materials that may be of interest to you, as permitted by
-            law.
+            By accessing our website, you acknowledge that you know about our
+            marketing practices and agree with them. You have nothing against
+            receiving advertisements, newsletters, marketing messages and other
+            promotional materials from us.
           </p>
           <p>
-            If you no longer wish to receive marketing emails from us, you may
-            opt out by following the unsubscribe link contained in those emails
-            or by contacting us directly. Please note that you may still receive
-            non-marketing communications, such as service or legal notices.
+            Our third-party partners may also send you their marketing messages
+            using all the contacts you’ve provided us with.
           </p>
           <p>
-            If you wish to stop receiving marketing communications from a
-            specific lender or third party, you must contact that party
-            directly, as we do not control their marketing lists.
+            When you start using our website, you acknowledge that you are aware of
+            our marketing practices and that you agree to receive such kind of
+            messages from us and our third-party partners. In case you don’t want to
+            receive marketing messages from us, we give you an option to opt-out.
+            Nevertheless, if you want to opt-out from third parties’ messages, you
+            should contact them directly with this request.
           </p>
+          <p>
+            Please note, that we are not responsible for marketing practices of third
+            parties as we do not control them.
+          </p>          
         </section>
 
         <section className="legal-section">
