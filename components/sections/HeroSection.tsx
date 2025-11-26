@@ -84,9 +84,9 @@ export default function HeroSection() {
 
             {/* 3 badge bảo mật */}
             <div className="hero__security">
-              <div className="hero__security-badge">SECURED BY SECTIGO</div>
-              <div className="hero__security-badge">SSL SECURED</div>
-              <div className="hero__security-badge">OLA MEMBER</div>
+              <div className="hero__security-badge">DATA PROTECTED</div>
+              <div className="hero__security-badge">2048-BIT SSL ENCRYPTION</div>
+              <div className="hero__security-badge">CLEAR-CUT FORM</div>
             </div>
           </div>
 
@@ -110,5 +110,6 @@ export default function HeroSection() {
     </section>
   );
 }
+
 
 
