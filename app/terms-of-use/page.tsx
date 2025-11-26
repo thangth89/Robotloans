@@ -12,7 +12,10 @@ export const metadata: Metadata = {
 
 export default function TermsOfUsePage() {
   return (
-    <main className="page-container legal-page">
+<div className="site-root">
+  <SiteHeader />
+    <main className="site-main">
+     <HeroSection />
       <h1 className="legal-page__title">Terms of Use</h1>
 
       <section className="legal-page__section">
