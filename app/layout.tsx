@@ -17,7 +17,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="page-body">
-        
       {/* FB Pixel cho toàn site */}
         <Script
           id="fb-pixel"
@@ -32,12 +31,22 @@ export default function RootLayout({
               t.src=v;s=b.getElementsByTagName(e)[0];
               s.parentNode.insertBefore(t,s)}(window, document,'script',
               'https://connect.facebook.net/en_US/fbevents.js');
-              fbq('init', 'YOUR_PIXEL_ID'); // <-- thay YOUR_PIXEL_ID
+              fbq('init', '701205933041419');
               fbq('track', 'PageView');
             `,
           }}
-        /> 
-      {children}</body>
+        />
+        <noscript>
+          <img
+            height="1"
+            width="1"
+            style={{ display: "none" }}
+            src="https://www.facebook.com/tr?id=701205933041419&ev=PageView&noscript=1"
+          />
+        </noscript>
+        {/* End Meta Pixel Code */}
+       {children}
+      </body>
     </html>
   );
 }
