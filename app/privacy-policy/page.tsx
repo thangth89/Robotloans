@@ -213,163 +213,127 @@ export default function PrivacyPolicyPage() {
             collect about you, why the information is collected, who we share your
             information with, and for what reason that information is shared.
           </p>
-          <ul>
-            <li>
-              The right to know what categories of personal information we
-              collect, use, disclose and sell;
-            </li>
-            <li>
-              The right to request access to specific pieces of personal
-              information we hold about you;
-            </li>
-            <li>
-              The right to request deletion of your personal information,
-              subject to certain exceptions;
-            </li>
-            <li>
-              The right to opt out of the “sale” or certain sharing of your
-              personal information, if applicable;
-            </li>
-            <li>
-              The right not to be discriminated against for exercising any of
-              these rights.
-            </li>
-          </ul>
           <p>
-            To exercise your CCPA rights, you may contact us using the
-            information provided below. We will verify your identity and process
-            your request in accordance with applicable law. You may also
-            designate an authorized agent to submit requests on your behalf,
-            provided the agent can show appropriate authorization.
+            11.1.1
           </p>
+          <p className="underline-title">
+           Category of Information
+          </p>
+          <p>
+            Identifiers
+          </p>
+          <p className="underline-title">
+            Examples
+          </p>
+          <p>
+            Name, internet protocol address, email address, or other similar identifiers
+          </p>
+          <p className="underline-title">
+            Source of Information
+          </p>
+          <p>
+            Consumer, third-party data providers, marketing partners, and advertising partners
+          </p>
+          <p className="underline-title">
+            Purpose of Collection
+          </p>
+          <p>
+            For us to provide services, market to you, analyze your use, conduct
+            research, maintain security of our systems and operations, and to meet our
+            legal compliance requirements
+          </p>
+          <p className="underline-title">
+           Who Do We Share With
+          </p>
+           <p>
+            Lenders, non-lenders or intermediary service providers, marketing
+            partners, advertising partners, web analytics providers, service providers,
+            vendors, customer support providers, data processing providers, law
+            enforcement, government authorities, parties that legally compel us to
+            share your information
+          </p>  
+          <p>
+           11.1.2
+          </p>
+          <p className="underline-title">
+           Category of Information
+          </p>
+          <p>
+           Personal information categories listed in the California Customer Records statute
+          </p>
+          <p className="underline-title">
+           Examples
+          </p>
+          <p>
+            Name, signature, address, telephone number, driver’s license or state
+            identification number, employment, social security number, bank account
+            number
+          </p>
+          <p className="underline-title">
+            Source of Information
+          </p>
+          <p>
+            Consumer and third-party data providers
+          </p>
+          <p className="underline-title">
+            Purpose of Collection
+          </p>
+          <p>
+            For us to perform services you requested or to offer products on behalf of
+            our lenders, non-lenders or intermediary services providers and for us to
+            market to you, analyze your use, conduct research, maintain security of our
+            systems and operations, and to meet our legal compliance requirements
+          </p>
+          <p className="underline-title">
+            Who Do We Share With
+          </p>
+          <p>
+            Lenders, non-lenders or intermediary service providers, marketing
+            partners, advertising partners, service providers, customer support
+            providers, data processing providers, law enforcement, government
+            authorities, parties that legally compel us to share your information
+          </p>
+          <p>
+            Who Do We Share With
+          </p>
+          <p>
+            Who Do We Share With
+          </p>
+          <p>
+            Who Do We Share With
+          </p>
+          <p>
+            Who Do We Share With
+          </p>
+          <p>
+            Who Do We Share With
+          </p>
+          <p>
+            Who Do We Share With
+          </p>
+          <p>
+            Who Do We Share With
+          </p>
+          <p>
+            Who Do We Share With
+          </p>
+          <p>
+            Who Do We Share With
+          </p>
+          <p>
+            Who Do We Share With
+          </p>
+          <p>
+            Who Do We Share With
+          </p>
+
+
+
+
+          
         </section>
 
-        {/* 11.1.10 Inferences drawn from other personal information */}
-        <section className="legal-section">
-          <h2>11.1.10 Category of information</h2>
-          <p>Inferences drawn from other personal information.</p>
-
-          <h3>Examples</h3>
-          <p>
-            Profiles that reflect a person&apos;s preferences, characteristics,
-            trends, behavior, and abilities.
-          </p>
-
-          <h3>Source of information</h3>
-          <p>Third-party data providers, marketing partners, and advertisers.</p>
-
-          <h3>Purpose of collection</h3>
-          <p>
-            To provide services you request, to offer products on behalf of our
-            lenders, non-lenders or intermediary service providers and to
-            market to you, analyze your use of our services, conduct research,
-            maintain the security of our systems and operations, and comply with
-            legal requirements.
-          </p>
-
-          <h3>Who do we share with</h3>
-          <p>
-            Data processing providers, web analytics providers, and
-            security/anti-fraud providers.
-          </p>
-        </section>
-
-        {/* 11.2 – Your CCPA rights */}
-        <section className="legal-section">
-          <h2>11.2 Your rights under the CCPA</h2>
-
-          <h3>Right to know</h3>
-          <p>
-            As a California resident, you have the right to know (i) the
-            categories of personal information we collected about you in the
-            preceding 12 months; (ii) the sources of that information; (iii) the
-            business or commercial purpose for collecting or selling it; and
-            (iv) the categories of third parties with whom we share the
-            information.
-          </p>
-
-          <h3>Additional privacy rights</h3>
-          <p>
-            You also have the right (i) to request that we tell you what
-            specific information we have about you; (ii) to request that we
-            delete your information; (iii) to opt-out of the sale of your
-            information; and (iv) not to be discriminated against for
-            exercising these privacy rights. You may only submit a CCPA-related
-            request twice in any 12-month period.
-          </p>
-
-          <h3>Right to non-discrimination</h3>
-          <p>
-            We will not discriminate against you for exercising any of your CCPA
-            rights. Unless allowed by the CCPA, we will not (i) deny you goods
-            or services; or (ii) provide you a different level or quality of
-            goods or services.
-          </p>
-
-          <h3>Alternative format of this notice</h3>
-          <p>
-            If you have a disability that limits your ability to access this
-            CCPA notice, please email us at{" "}
-            <a href="mailto:contact@robotloans.com">
-              contact@robotloans.com
-            </a>{" "}
-            and we will work with you to provide this notice in an alternative
-            format.
-          </p>
-
-          <h3>Authorized agent</h3>
-          <p>
-            California residents can appoint an &quot;authorized agent&quot; to
-            submit CCPA requests on their behalf. We will require the agent to
-            provide written authorization confirming that they are allowed to
-            act for you.
-          </p>
-
-          <h3>How to exercise your right to delete information</h3>
-          <p>
-            You may request deletion of the information we have on file by
-            using the request form available on this website or by emailing us
-            with the subject line “CCPA Right to Request or Delete Information”
-            at{" "}
-            <a href="mailto:contact@robotloans.com">
-              contact@robotloans.com
-            </a>
-            . Please provide your full name, physical address, phone number,
-            email address, proof of identity (for example, driver&apos;s license
-            or passport), and a description of the right you wish to exercise.
-            We will contact you within the time period required by law to verify
-            your identity. After verification, we will send your information in
-            an electronic format. Any personal information collected from you
-            for verification will be used only for that purpose.
-          </p>
-
-          <h3>How to exercise your right to opt-out of sale</h3>
-          <p>
-            If you are 16 years of age or older, you have the right to direct us
-            not to sell your personal information at any time. You may submit an
-            opt-out request through the URL provided on our website or by
-            emailing us with the subject line “CCPA Do Not Sell My Information”
-            at{" "}
-            <a href="mailto:contact@robotloans.com">
-              contact@robotloans.com
-            </a>
-            . Please include your full name, address, phone number, email
-            address, proof of identity, and a description of the right you want
-            to exercise. After we verify your identity, we will send you a
-            confirmation in electronic form.
-          </p>
-
-          <h3>Do not sell my personal information</h3>
-          <p>
-            Please note that if you choose to opt-out, we may be unable to help
-            you find a loan or other products or services that might be of
-            interest to you through our network partners. To opt-in again, you
-            can resubmit your request through our form, letting us know that you
-            want us to use your information to deliver the products and services
-            you request.
-          </p>
-        </section>
-
+ 
         {/* 12. California Disclosures */}
         <section className="legal-section">
           <h2>12. California disclosures</h2>
