@@ -294,89 +294,411 @@ export default function PrivacyPolicyPage() {
             authorities, parties that legally compel us to share your information
           </p>
           <p>
-            Who Do We Share With
+            11.1.3
+          </p>
+          <p className="underline-title">
+            Category of Information
           </p>
           <p>
+            Protected classification characteristics under California or federal law
+          </p>
+          <p className="underline-title">
+            Examples
+          </p>          
+          <p>
+            Age, military status
+          </p>
+           <p className="underline-title">
+            Source of Information
+          </p>           
+          <p>
+            Consumer and third-party data providers
+          </p>
+           <p className="underline-title">
+            Purpose of Collection
+          </p>            
+          <p>
+            For us to perform services you requested or to offer products on behalf of
+            our lenders, non-lenders or intermediary services providers and for us to
+            market to you, analyze your use, conduct research, maintain security of our
+            systems and operations, and to meet our legal compliance requirements
+          </p>
+           <p className="underline-title">
             Who Do We Share With
+          </p>           
+          <p>
+            Lenders, non-lenders or intermediary service providers, marketing
+            partners, advertising partners, service providers, customer support
+            providers, data processing providers
           </p>
           <p>
-            Who Do We Share With
+            11.1.4
+          </p>
+          <p className="underline-title">
+            Category of Information
           </p>
           <p>
+            Commercial information
+          </p>
+          <p className="underline-title">
+            Examples
+          </p>          
+          <p>
+            Product or service provider sites you choose to navigate to
+          </p>
+           <p className="underline-title">
+            Source of Information
+          </p>           
+          <p>
+            Consumer and third-party data providers
+          </p>
+           <p className="underline-title">
+            Purpose of Collection
+          </p>            
+          <p>
+            For us to perform services you requested or to offer products on behalf of
+            our lenders, non-lenders or intermediary services providers and for us to
+            market to you, analyze your use, conduct research, maintain security of our
+            systems and operations
+          </p>
+           <p className="underline-title">
             Who Do We Share With
+          </p>           
+          <p>
+            Lenders, non-lenders or intermediary service providers, marketing
+            partners, advertising partners, service providers, customer support
+            providers, data processing providers
+          </p>          
+          <p>
+            11.1.5
+          </p>
+          <p className="underline-title">
+            Category of Information
           </p>
           <p>
+            Biometric data
+          </p>
+          <p className="underline-title">
+            Examples
+          </p>          
+          <p>
+            Keystroke or other behavioral or biological characteristics
+          </p>
+           <p className="underline-title">
+            Source of Information
+          </p>           
+          <p>
+            N/A
+          </p>
+           <p className="underline-title">
+            Purpose of Collection
+          </p>            
+          <p>
+            N/A
+          </p>
+           <p className="underline-title">
             Who Do We Share With
+          </p>           
+          <p>
+            N/A
+          </p>          
+          <p>
+            11.1.6
+          </p>
+          <p className="underline-title">
+            Category of Information
           </p>
           <p>
+            Internet or similar network activity
+          </p>
+          <p className="underline-title">
+            Examples
+          </p>          
+          <p>
+            Browsing history, search history, information on a consumer’s interaction
+            with a website, application, or advertisement
+          </p>
+           <p className="underline-title">
+            Source of Information
+          </p>           
+          <p>
+            Consumer, web browsers, marketing partners, and advertising partners
+          </p>
+           <p className="underline-title">
+            Purpose of Collection
+          </p>            
+          <p>
+            For us to perform services you requested or to offer products on behalf of
+            our lenders, non-lenders or intermediary services providers and for us to
+            market to you, analyze your use, conduct research, maintain security of our
+            systems and operations
+          </p>
+           <p className="underline-title">
             Who Do We Share With
+          </p>           
+          <p>
+            Marketing partners, advertising partners, web analytics providers,
+            security/anti-fraud providers
           </p>
           <p>
-            Who Do We Share With
+            11.1.7
+          </p>
+          <p className="underline-title">
+            Category of Information
           </p>
           <p>
+            Geolocation data
+          </p>
+          <p className="underline-title">
+            Examples
+          </p>          
+          <p>
+            Physical location or movements
+          </p>
+           <p className="underline-title">
+            Source of Information
+          </p>           
+          <p>
+            Consumer, web browsers, marketing partners, and advertising partners
+          </p>
+           <p className="underline-title">
+            Purpose of Collection
+          </p>            
+          <p>
+            For us to perform services you requested or to offer products on behalf of
+            our lenders, non-lenders or intermediary services providers and for us to
+            market to you, analyze your use, conduct research, maintain security of our
+            systems and operations, and to meet our legal compliance requirements
+          </p>
+           <p className="underline-title">
             Who Do We Share With
+          </p>           
+          <p>
+            Marketing partners, advertising partners, web analytics providers,
+            security/anti-fraud providers
+          </p>          
+          <p>
+            11.1.8
+          </p>
+          <p className="underline-title">
+            Category of Information
           </p>
           <p>
+            Sensory data
+          </p>
+          <p className="underline-title">
+            Examples
+          </p>          
+          <p>
+            Audio, electronic, visual, or similar information
+          </p>
+           <p className="underline-title">
+            Source of Information
+          </p>           
+          <p>
+            N/A
+          </p>
+           <p className="underline-title">
+            Purpose of Collection
+          </p>            
+          <p>
+            N/A
+          </p>
+           <p className="underline-title">
             Who Do We Share With
+          </p>           
+          <p>
+            N/A
+          </p>          
+          <p>
+            11.1.9
+          </p>
+          <p className="underline-title">
+            Category of Information
           </p>
           <p>
+            Professional or employment-related information
+          </p>
+          <p className="underline-title">
+            Examples
+          </p>          
+          <p>
+            Current employer, length of employment
+          </p>
+           <p className="underline-title">
+            Source of Information
+          </p>           
+          <p>
+            Consumer and third-party data providers
+          </p>
+           <p className="underline-title">
+            Purpose of Collection
+          </p>            
+          <p>
+            For us to perform services you requested or to offer products on behalf of
+            our lenders, non-lenders or intermediary services providers and for us to
+            market to you, analyze your use, conduct research, maintain security of our
+            systems and operations
+          </p>
+           <p className="underline-title">
             Who Do We Share With
+          </p>           
+          <p>
+            Lenders, non-lenders or intermediary service providers, marketing
+            partners, advertising partners, service providers, customer support
+            providers, data processing providers
+          </p>          
+          <p>
+            11.1.10
+          </p>
+          <p className="underline-title">
+            Category of Information
           </p>
           <p>
-            Who Do We Share With
+            Inferences drawn from other personal information
           </p>
-
-
-
-
-          
+          <p className="underline-title">
+            Examples
+          </p>          
+          <p>
+            Profile reflecting a person’s preferences, characteristics, trends, behavior, and abilities
+          </p>
+           <p className="underline-title">
+            Source of Information
+          </p>           
+          <p>
+            Third-party data providers, marketing partners, and advertising partners
+          </p>
+           <p className="underline-title">
+            Purpose of Collection
+          </p>            
+          <p>
+            For us to perform services you requested or to offer products on behalf of
+            our lenders, non-lenders or intermediary services providers and for us to
+            market to you, analyze your use, conduct research, maintain security of our
+            systems and operations
+          </p>
+           <p className="underline-title">
+            Who Do We Share With
+          </p>           
+          <p>
+            Data processing providers, web analytics providers, and security/anti-fraud providers
+          </p>          
+          <p>
+            11.2 Right to Know. As a California resident, you have the right to know (i) the
+            categories of personal information we collected about you in the
+            preceding 12 months; (ii) the sources from which the personal information
+            was collected; (iii) the business or commercial purpose for which it
+            collected or sold the personal information; and (iv) the categories of third
+            parties with which the business shares personal information.
+          </p>
+          <p>
+            Additional Privacy Rights. You also have the right (i) to request that we tell
+            you what specific information we have about you; (ii) to request that we
+            delete your information; (iii) to opt-out of having your information sold;
+            and (iv) for us not to discrimination against you for exercising these privacy
+            rights. Please note that you may only make a CCPA-related request twice
+            within a 12-month period.
+          </p>
+          <p>
+            Right to Non-Discrimination. We will not discriminate against you for
+            exercising any of your CCPA rights. Unless otherwise permitted by the
+            CCPA, we will not (i) deny you goods or services; or (ii) provide you a
+            different level or quality of good or service.
+          </p>
+          <p>
+            Alternative Format of CCPA Notice. If you have a disability that prevents or
+            limits your ability to access this CCPA Notice, please email us at
+            contact@trustedonlineloans.com. We will work with you to provide this
+            notice in an alternative format.
+          </p>
+          <p>
+            Authorized Agent. California residents can empower an “authorized agent”
+            to submit requests on their behalf. We will require the authorized agent to
+            have a written authorization confirming that authority.
+          </p>
+          <p>
+            How to Submit Your Request for Specific Information. You can request access
+            to specific information we have about you by sending an email with the
+            Subject Line “CCPA Right to Know” to contact@trustedonlineloans.com or
+            you can make your request for information here. In your request, please
+            provide us with enough information to identify you, including (i) your full
+            name; (ii) physical address; (iii) phone number; (iv) email address; (v) proof
+            of your identity (e.g. driver’s license or passport); and (vi) a description of
+            what right you want to exercise. Once your request is submitted, we will
+            reach out to you within the timeframe required by law to verify your
+            identity. After we verify your identity, we will send your information to you
+            via an electronic format. Any personal information we collect from you to
+            verify your identity in connection with your request will be used solely for
+            the purposes of verification.
+          </p>
+          <p>
+            How to Exercise Your Right to Delete Information. You can request the
+            categories of information we have on file or deletion of information
+            available on our request form available here. You may also submit this
+            request by sending an email with the Subject Line “CCPA Right to Request
+            or Delete Information” to contact@trustedonlineloans.com. In your
+            request, please provide us with enough information to identify you,
+            including (i) your full name; (ii) physical address; (iii) phone number; (iv)
+            email address; (v) proof of your identity (e.g. driver’s license or passport);
+            and (vi) a description of what right you want to exercise. Once your
+            request is submitted, we will reach out to you within the timeframe
+            required by law to verify your identity. After we verify your identity, we will
+            send your information to you via an electronic format. Any personal
+            information we collect from you to verify your identity in connection with
+            your request will be used solely for the purposes of verification.
+          </p>         
+          <p>
+            How to Exercise Your Right to Opt-Out of Sale of Your Information. Under the
+            CCPA, if you are 16 years of age or older, you have the right to direct us not
+            to sell your personal information at any time. You may submit your request
+            through the URL provided below. You may also submit this request by
+            sending an email with the Subject Line “CCPA Do Not Sell My Information”
+            to contact@trustedonlineloans.com. In your request, please provide us
+            with enough information to identify you, including (i) your full name; (ii)
+            physical address; (iii) phone number; (iv) email address; (v) proof of your
+            identity (e.g. driver’s license or passport); and (vi) a description of what
+            right you want to exercise. Once your request is submitted, we will reach
+            out to you within the timeframe required by law to verify your identity.
+            After we verify your identity, we will send your information to you via an
+            electronic format. Any personal information we collect from you to verify
+            your identity in connection with your request will be used solely for the
+            purposes of verification.   
+          </p> 
+          <p>
+            DO NOT SELL MY PERSONAL INFORMATION
+          </p> 
+          <p>
+            However, if you opt-out, please note that we will be unable to help you find
+            a loan or other product or services that may be of interest to you through
+            our Network Partners. In order to opt-in, please submit the completed
+            form or resubmit your request, which lets us know that you want to sell
+            your information to deliver the products and services you requested.
+          </p> 
         </section>
 
- 
-        {/* 12. California Disclosures */}
         <section className="legal-section">
           <h2>12. California disclosures</h2>
           <p>
-            California law requires us to provide certain disclosures to users
-            of this website. Under the “Shine the Light” law (Civil Code
-            Section 1798.83), residents of California who use this website to
-            request services may ask us for information about our disclosure of
-            personal information to third parties for their direct marketing
-            purposes. To make such a request, please contact us at{" "}
-            <a href="mailto:contact@robotloans.com">
-              contact@robotloans.com
-            </a>
-            . This section does not apply to disclosures made for non-marketing
-            purposes.
+            California Law requires us to provide certain disclosures to users of this
+            Website. Shine the Light Disclosure. Civil Code Section 1798.83 permits
+            California residents that use this Website to request certain information
+            regarding our disclosure of personal information to third parties for their
+            direct marketing purposes. To make such a request, please contact us at
+            contact@robotloans.com. Please note that this section does not
+            prohibit disclosure made for non-marketing purposes. Do Not Track
+            Disclosures. Business and Professions Code Section 22575(b) requires
+            websites to disclose their practices with respect to the use of tracking
+            technology made by third parties and whether this Website honors web
+            browser do-not-track signals. No third parties are able to collect personally
+            identifiable information you provide on this Website. At this time,
+            trustedonlineloans.com does not respond to do-not-track browser settings
+            or signals.
           </p>
-          <p>
-            California&apos;s Business and Professions Code Section 22575(b)
-            requires websites to disclose their practices regarding the use of
-            tracking technology by third parties and whether the website honors
-            web browser “do-not-track” signals. No third parties are able to
-            collect personally identifiable information about you on this
-            website for their own purposes. At this time, RobotLoans.com does
-            not respond to do-not-track browser settings or signals.
-          </p>
-        </section>
-
-        {/* 13. How you can contact us */}
         <section className="legal-section">
           <h2>13. How you can contact us</h2>
           <p>
-            If there is something you would like to discuss with us, please send
-            us a message using the contact details or the form provided on the{" "}
-            <strong>Contact Us</strong> page of this website.
-          </p>
-        </section>
-
-        <section className="legal-section legal-section--disclaimer">
-          <p>
-            <strong>Disclaimer:</strong> This Privacy Policy is provided for
-            informational purposes only and does not constitute legal advice.
-            You should consult your own legal counsel to ensure that your
-            privacy practices meet all applicable requirements.
+            If there is something you would like to discuss with us, please, send us a message via our contact form.
           </p>
         </section>
       </div>
