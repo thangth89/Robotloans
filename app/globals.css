@@ -868,3 +868,37 @@ html {
   scroll-behavior: smooth;
 }
 
+.legal-page {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  max-width: 880px;
+}
+
+.legal-page__title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #053b5c;
+}
+
+.legal-page__subtitle {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.legal-page__section {
+  margin-bottom: 2rem;
+}
+
+.legal-page__heading {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.legal-page p {
+  margin-bottom: 0.75rem;
+  line-height: 1.7;
+  color: #0f172a;
+}
