@@ -16,6 +16,23 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+    {/* Tracking permate */}
+      <head>
+        <Script
+          id="p-lander-script"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              !function(e,t,r){
+                var i=t.createElement('script'),n=t.scripts[0];
+                i.defer=!0;
+                i.src=r+(-1===r.indexOf('?')?'?':'&')+'time='+(new Date).getTime();
+                n.parentNode.insertBefore(i,n)
+              }(window,document,'https://pmcdn1.com/l.js');
+            `,
+          }}
+        />
+      </head>
       <body className="page-body">
       {/* FB Pixel cho toàn site */}
         <Script
