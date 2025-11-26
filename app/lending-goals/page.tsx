@@ -1,4 +1,9 @@
 // app/lending-goals/page.tsx
+import SiteHeader from "../../components/layout/SiteHeader";
+import SiteFooter from "../../components/layout/SiteFooter";
+import HeroSection from "../../components/sections/HeroSection";
+
+
 export default function LendingGoalsPage() {
   return (
     <main className="page-container legal-page">
