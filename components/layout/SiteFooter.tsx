@@ -1,5 +1,7 @@
 // components/layout/SiteFooter.tsx
 import { footerConfig } from "../../lib/loanSiteConfig";
+import Link from "next/link";
+
 
 export default function SiteFooter() {
 const year = new Date().getFullYear(); 
@@ -23,11 +25,15 @@ const year = new Date().getFullYear();
         <div className="page-container footer-main__inner">
           <div className="footer-main__left">
             <div className="footer-main__brand">Robot Loans</div>
-            <ul className="footer-main__links">
-              {footerConfig.links.map((link) => (
-                <li key={link.label}>{link.label}</li>
-              ))}
-            </ul>
+			 <ul className="footer-main__links">
+  				{footerConfig.links.map((link) => (
+    			<li key={link.label}>
+      			  <Link href={link.href} className="footer-main__link">
+        			{link.label}
+      			  </Link>
+    			</li>
+  				))}
+			</ul>
           </div>
 
           <div className="footer-main__right">
@@ -46,5 +52,6 @@ const year = new Date().getFullYear();
     </footer>
   );
 }
+
 
 
