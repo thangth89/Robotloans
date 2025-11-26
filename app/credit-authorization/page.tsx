@@ -1,3 +1,7 @@
+
+import SiteHeader from "../components/layout/SiteHeader";
+import SiteFooter from "../components/layout/SiteFooter";
+import HeroSection from "../components/sections/HeroSection";
 import type { Metadata } from "next";
 import Link from "next/link";
 
@@ -14,6 +18,8 @@ export const metadata: Metadata = {
 export default function CreditAuthorizationAgreementPage() {
   return (
     <main className="legal-page">
+      <SiteHeader />
+         <HeroSection />
       <div className="page-container legal-page__inner">
         <h1 className="legal-page__title">Credit Authorization Agreement</h1>
 
@@ -69,5 +75,6 @@ export default function CreditAuthorizationAgreementPage() {
         </section>
       </div>
     </main>
+    <SiteFooter />
   );
 }
