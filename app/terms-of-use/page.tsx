@@ -203,5 +203,7 @@ export default function TermsOfUsePage() {
         </p>
       </section>
     </main>
+    <SiteFooter />
+</div>
   );
 }
