@@ -3,6 +3,8 @@ import SiteHeader from "../../components/layout/SiteHeader";
 import SiteFooter from "../../components/layout/SiteFooter";
 import HeroSection from "../../components/sections/HeroSection";
 import type { Metadata } from "next";
+import Script from "next/script";
+
 
 export const metadata: Metadata = {
   title: "Terms of Use | RobotLoans",
