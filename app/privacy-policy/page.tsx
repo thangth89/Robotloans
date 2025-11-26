@@ -25,7 +25,7 @@ export default function PrivacyPolicyPage() {
         <section className="legal-section">
           <h2>Your privacy is safe with us</h2>
           <p>
-            We address your privacy with care. We understand the importance of
+            <strong>We address your privacy with care.</strong> We understand the importance of
             personal data safety. And we are also well aware of the pressure the
             modern world puts upon management of this information. To make our
             privacy protection principles clear, we established this Privacy Policy. We
@@ -40,66 +40,32 @@ export default function PrivacyPolicyPage() {
         <section className="legal-section">
           <h2>1. What kind of information we collect</h2>
           <p>
-            We collect two main types of information:{" "}
-            <strong>personally identifiable information</strong> and{" "}
-            <strong>non-personally identifiable information</strong>.
+            We gather the following information from you, personally identifiable
+            information and non-personally identifiable information.
           </p>
-
-          <h3>Personally identifiable information</h3>
           <p>
-            This is information that can be used to identify you as an
-            individual. You normally provide it to us when you fill out our
-            online form and submit a request to be connected with a lender. It
-            may include, for example:
+            <strong>Personally identifiable information</strong> is the sort of data that allows to
+            recognize you as an individual. You provide us with it when you sign up
+            and start submitting a request. This information may include but is not
+            limited to: your full name, date of birth, place of residence, phone and
+            mobile phone number, driver’s license, social security number, relevant
+            employment details, income, banking account, credit history, military
+            status.
           </p>
-          <ul>
-            <li>Full name and date of birth;</li>
-            <li>Residential address and length of stay;</li>
-            <li>
-              Contact details such as email address and home / mobile phone
-              number;
-            </li>
-            <li>
-              Government-issued identification data (e.g. driver’s license or
-              similar);
-            </li>
-            <li>
-              Employment and income information, including employer name,
-              length of employment and pay frequency;
-            </li>
-            <li>
-              Banking and payment information needed for processing your
-              request;
-            </li>
-            <li>
-              Other financial data such as credit history or military status if
-              required by lenders or law.
-            </li>
-          </ul>
-
-          <h3>Non-personally identifiable information</h3>
           <p>
-            This is information that does not directly identify you. It helps us
-            understand how visitors use our website and improve our services.
-            Examples include:
+             <strong>Non-personally identifiable information</strong> relates to the data that doesn’t
+            reveal anything about your identity. This information is anonymous and
+            may include but is not limited to: IP address, Internet provider, browser,
+            language, time of browsing session, clicks, links you followed, etc. Such
+            kind of data is collected through cookies, web beacons and pixel tags.
           </p>
-          <ul>
-            <li>IP address and browser type;</li>
-            <li>Device type, operating system and language settings;</li>
-            <li>Pages visited, time and date of visits, click paths;</li>
-            <li>
-              Referring URLs and links you click on while using our website.
-            </li>
-          </ul>
-
-          <h3>Cookies, web beacons and pixel tags</h3>
           <p>
-            We, or third-party providers working on our behalf, may use cookies,
-            web beacons, pixel tags and similar technologies to collect
-            non-personally identifiable information. Cookies are small text
-            files placed on your device; web beacons and pixel tags are tiny
-            graphics used to understand how visitors interact with web pages and
-            emails.
+             <strong>Cookies</strong> are tiny pieces of data sent by a website you visited and stored at
+            your computer.
+          </p>
+          <p>
+            The terms of <strong>web beacons</strong> and <strong>pixel tags</strong> are associated with small
+            transparent graphic images that allow to track behavior of website visitors.
           </p>
         </section>
 
