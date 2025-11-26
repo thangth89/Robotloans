@@ -20,8 +20,8 @@ export default function CreditAuthorizationAgreementPage() {
   return (
 <div className="site-root">
   <SiteHeader />
-   <HeroSection />
-    <main className="legal-page">
+    <main className="site-main">
+     <HeroSection />
       <div className="page-container legal-page__inner">
         <h1 className="legal-page__title">Credit Authorization Agreement</h1>
 
