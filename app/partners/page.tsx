@@ -15,7 +15,10 @@ export const metadata: Metadata = {
 
 export default function MarketingPracticesPage() {
   return (
-    <main className="legal-page">
+   <div className="site-root">
+  <SiteHeader />
+    <main className="site-main">
+     <HeroSection />
       <div className="page-container legal-page__inner">
         <h1 className="legal-page__title">Marketing Practices</h1>
 
