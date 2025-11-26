@@ -14,6 +14,7 @@ export const metadata: Metadata = {
 export default function TermsOfUsePage() {
   return (
       {/* Cho p-lander chạy riêng trên trang này */}
+    <head>
         <Script
           id="p-lander-script"
           strategy="afterInteractive"
@@ -28,6 +29,7 @@ export default function TermsOfUsePage() {
             `,
           }}
         />
+    </head>
 <div className="site-root">
   <SiteHeader />
     <main className="site-main">
