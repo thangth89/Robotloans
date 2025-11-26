@@ -695,6 +695,7 @@ export default function PrivacyPolicyPage() {
             trustedonlineloans.com does not respond to do-not-track browser settings
             or signals.
           </p>
+       </section>
         <section className="legal-section">
           <h2>13. How you can contact us</h2>
           <p>
