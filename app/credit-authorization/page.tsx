@@ -18,8 +18,9 @@ export const metadata: Metadata = {
 
 export default function CreditAuthorizationAgreementPage() {
   return (
+<div className="site-root">
+  <SiteHeader />
     <main className="legal-page">
-        <SiteHeader />
          <HeroSection />
       <div className="page-container legal-page__inner">
         <h1 className="legal-page__title">Credit Authorization Agreement</h1>
@@ -75,7 +76,8 @@ export default function CreditAuthorizationAgreementPage() {
           </ol>
         </section>
       </div>
-       <SiteFooter />
     </main>
+  <SiteFooter />
+</div>
   );
 }
