@@ -204,5 +204,7 @@ export default function ResponsibleLendingPage() {
         </section>
       </div>
     </main>
+      <SiteFooter />
+</div>
   );
 }
