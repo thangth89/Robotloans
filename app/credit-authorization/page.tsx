@@ -33,11 +33,11 @@ export default function CreditAuthorizationAgreementPage() {
 
           <ol>
             <li>
-              <strong>a.</strong> You are submitting a request for a loan and
+              You are submitting a request for a loan and
               this request is a business transaction initiated by you;
             </li>
             <li>
-              <strong>b.</strong> Your request and all information in it may be
+              Your request and all information in it may be
               shown to multiple lenders, lending partners, and marketing
               partners in our network or in other financial networks (together{" "}
               &quot;Partners*&quot;) in real time or over time so that one or
@@ -45,7 +45,7 @@ export default function CreditAuthorizationAgreementPage() {
               advertise their loan or other financial products to you;
             </li>
             <li>
-              <strong>c.</strong> You are providing written instruction under
+              You are providing written instruction under
               the Fair Credit Reporting Act and other applicable laws for
               Liftup&nbsp;Capital, Inc. and its{" "}
               <Link href="/partners">partners*</Link> to obtain consumer
@@ -58,19 +58,19 @@ export default function CreditAuthorizationAgreementPage() {
               credit decisions;
             </li>
             <li>
-              <strong>d.</strong> Many users of this site do not qualify for the
+              Many users of this site do not qualify for the
               loan types or amounts they request;
             </li>
             <li>
-              <strong>e.</strong> Some lenders may only offer loans in an amount
+              Some lenders may only offer loans in an amount
               below the amount you requested;
             </li>
             <li>
-              <strong>f.</strong> Any loan terms you may be offered are
+              Any loan terms you may be offered are
               determined solely by your lender and not by us; and
             </li>
             <li>
-              <strong>g.</strong> You will closely review your loan offer(s) and
+              You will closely review your loan offer(s) and
               research various loan options and alternatives available to you.
             </li>
           </ol>
