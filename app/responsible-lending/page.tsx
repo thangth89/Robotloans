@@ -22,7 +22,10 @@ export const metadata: Metadata = {
 
 export default function ResponsibleLendingPage() {
   return (
-    <main className="legal-page">
+  <div className="site-root">
+  <SiteHeader />
+    <main className="site-main">
+     <HeroSection />
       <div className="page-container legal-page__inner">
         <h1>Responsible Lending</h1>
 
