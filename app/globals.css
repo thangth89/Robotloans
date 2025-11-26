@@ -823,6 +823,16 @@ body {
   margin-bottom: 4px;
 }
 
+/* 👉 Thêm đoạn này */
+.footer-main__links a {
+  color: #ffffff;           /* chữ trắng */
+  text-decoration: none;    /* bỏ gạch chân nếu muốn */
+}
+
+.footer-main__links a:hover {
+  text-decoration: underline; /* hoặc đổi màu nếu bạn thích */
+}
+
 .footer-main__email a {
   color: #bfdbfe;
   text-decoration: none;
