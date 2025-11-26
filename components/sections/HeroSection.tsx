@@ -2,9 +2,9 @@
 
 import { useEffect, useRef, useState } from "react";
 import { heroConfig } from "../../lib/loanSiteConfig";
-import StartRequestButton from "@/components/sections/StartRequestButton";
+// import StartRequestButton from "@/components/sections/StartRequestButton";
 
-{/* const REQUEST_URL = "https://example.com"; // nếu muốn nút Start My Request mở link ngoài  */}
+const REQUEST_URL = "https://pmcloud1.com/c/l"; // nếu muốn nút Start My Request mở link ngoài 
 
 export default function HeroSection() {
   const [isOpen, setIsOpen] = useState(false);
@@ -73,16 +73,16 @@ export default function HeroSection() {
                 </div>
               )}
             </div>
-           <StartRequestButton />
-            {/* Nút mở link 
+  
+            {/* Nút mở link */}
             <a
-              href={"https://pmcloud1.com/c/l"}
+              href={REQUEST_URL}
               rel="noopener noreferrer"
               className="button button--primary hero__primary-button"
             >
               Start My Request
             </a>
-            */}
+            
             {/* 3 badge bảo mật */}
             <div className="hero__security">
               <div className="hero__security-badge">DATA PROTECTED</div>
@@ -111,6 +111,7 @@ export default function HeroSection() {
     </section>
   );
 }
+
 
 
 
