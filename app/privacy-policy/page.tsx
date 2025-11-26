@@ -161,64 +161,57 @@ export default function PrivacyPolicyPage() {
         <section className="legal-section">
           <h2>7. How we protect your information</h2>
           <p>
-            We use reasonable administrative, technical and physical safeguards
-            designed to protect your personal information against accidental or
-            unlawful destruction, loss, alteration, unauthorized access,
-            disclosure or misuse. Only authorized employees, contractors and
-            service providers are allowed to access personal data, and only when
-            they need it to perform their duties.
+            To keep your personal information safe, we use safeguards and advanced
+            security systems that correspond to the US law requirements regarding
+            this matter. Only authorized personnel can access your data. They may do
+            so only for business purposes allowed by the current US legislation.
           </p>
           <p>
-            However, no method of transmission over the Internet or electronic
-            storage is completely secure. Therefore, we cannot guarantee
-            absolute security of your information, and you share information
-            with us at your own risk.
+            Despite our best efforts, we cannot guarantee total safety of your data. This
+            is impossible due to the fact that we are not able to control law violators.
           </p>
         </section>
 
         <section className="legal-section">
           <h2>8. Notice for foreigners</h2>
           <p>
-            Our Service is intended primarily for residents of the United
-            States. If you are located outside the United States, please be
-            aware that your information may be transferred to, stored in and
-            processed in the United States or other countries where our servers
-            or service providers are located, and the data protection laws in
-            those locations may be different from those in your country.
+            We render our services exclusively to employed residents of the United States. If you are a foreigner, don’t access our website.
           </p>
         </section>
 
         <section className="legal-section">
           <h2>9. Notice for minors</h2>
           <p>
-            Our website and services are not directed to children under the age
-            of 18, and we do not knowingly collect personal information from
-            minors. If we become aware that we have collected personal data from
-            a minor, we will take reasonable steps to delete it. If you believe
-            that we may have information about a child, please contact us using
-            the details provided at the end of this Policy.
+            We render our services exclusively to people over 18 years old. If you are a
+            minor, don’t access our website.
           </p>
+          <p>
+            As seen above, we do not deliberately collect data from children. If you are
+            a parent or a legal guardian of a child that accessed our website, please,
+            inform us about the incident using our contacts.
+          </p>          
         </section>
 
         <section className="legal-section">
           <h2>10. Changes to this Privacy Policy</h2>
           <p>
-            We may update or modify this Privacy Policy from time to time. When
-            we do, we will revise the “Last updated” date at the top of the
-            page and, where required by law, provide additional notice. We
-            encourage you to review this Policy periodically so that you remain
-            informed about how we protect your information. Your continued use
-            of the Service after any changes means that you accept the revised
-            Policy.
+            We reserve the right to revise, modify, update this Privacy Policy when we
+            find appropriate to do so. We can revise, modify, update the Privacy Policy
+            without notice. For this reason we encourage you to reread this section
+            from time to time. If you keep accessing our website after we’ve changed
+            the Privacy Policy, then it will mean that you agree with the changes.
           </p>
         </section>
 
         <section className="legal-section">
           <h2>11. Your rights under the CCPA (California residents)</h2>
           <p>
-            If you are a resident of California, you may have certain rights
-            under the California Consumer Privacy Act (“CCPA”) and related
-            laws. In general, these rights may include:
+            11.1 General Information. If you are a California Resident, you are entitled to
+            additional rights over your personal information under the California
+            Consumer Privacy Act of 2018 (CCPA) and certain other privacy and data
+            protection laws. This section summaries the categories of information we
+            collect about you, why the information is collected, who we share your
+            information with, and for what reason that information is shared.
           </p>
           <ul>
             <li>
