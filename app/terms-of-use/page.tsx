@@ -30,7 +30,7 @@ export default function TermsOfUsePage() {
           of our website, such as the Privacy Policy.
         </p>
         <p>
-          Please bear in mind that as soon as you start using RobotLoans.com,
+          Please bear in mind that as soon as you start using RobotLoans.top,
           you admit that you agree to our Terms and Privacy Policy and are ready
           to abide by them. If you disagree with these Terms of Use, do not
           access our website in the first place.
@@ -72,7 +72,7 @@ export default function TermsOfUsePage() {
           get access to our network of lenders. You understand that we may
           share this information with them and that they, in their turn, may
           also use it. Our policy of data management is clearly expressed in
-          the section for Privacy Policy. By using RobotLoans.com, you consent
+          the section for Privacy Policy. By using RobotLoans.top, you consent
           to our Privacy Policy. You also consent to use our website only for
           its direct purposes and in full accordance with our Terms and the US
           legislation.
@@ -94,7 +94,7 @@ export default function TermsOfUsePage() {
           materials are protected by the US copyright laws. By giving you
           access to our website we do not delegate our intellectual property
           rights to you. Any reproduction, sale, copy or other misuse of
-          RobotLoans.com without our written permission is a violation of our
+          RobotLoans.top without our written permission is a violation of our
           rights.
         </p>
       </section>
@@ -103,7 +103,7 @@ export default function TermsOfUsePage() {
         <h3 className="legal-page__heading">4. Marketing Practices</h3>
         <p>
           The page for Marketing Practices explains our views on marketing and
-          its principles. By accessing RobotLoans.com, you confirm that you
+          its principles. By accessing RobotLoans.top, you confirm that you
           agree to our practices and that we and our third party partners may
           reach out to you via contacts you specified.
         </p>
@@ -147,7 +147,7 @@ export default function TermsOfUsePage() {
         </h3>
         <p>
           All disputes that may arise between you and RobotLoans.com shall be
-          resolved through arbitration only. By accessing RobotLoans.com you
+          resolved through arbitration only. By accessing RobotLoans.top you
           admit that you agree to solve any dispute through arbitration. You
           also agree that you waive your rights to represent yourself
           individually or through legal counsel in court.
@@ -157,7 +157,7 @@ export default function TermsOfUsePage() {
       <section className="legal-page__section">
         <h3 className="legal-page__heading">9. Indemnification</h3>
         <p>
-          If you choose to use RobotLoans.com, you confirm that you agree to
+          If you choose to use RobotLoans.top, you confirm that you agree to
           indemnify RobotLoans.com and its parental company together with any
           subsidiaries and affiliates. You agree that we won&apos;t be
           responsible for any damages, costs and misunderstanding that may
