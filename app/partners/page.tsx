@@ -1,3 +1,6 @@
+import SiteHeader from "../../components/layout/SiteHeader";
+import SiteFooter from "../../components/layout/SiteFooter";
+import HeroSection from "../../components/sections/HeroSection";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
