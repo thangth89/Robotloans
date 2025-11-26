@@ -103,5 +103,7 @@ export default function MarketingPracticesPage() {
         </section>
       </div>
     </main>
+   <SiteFooter />
+</div>
   );
 }
