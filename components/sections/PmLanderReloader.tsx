@@ -27,9 +27,10 @@ export default function PmLanderReloader() {
       } else {
         t.body.appendChild(i);
       }
-    })(window, document, "https://pmcdn1.com/o.js"); // đúng URL gốc
+    })(window, document, "https://pmcdn1.com/l.js"); // đúng URL gốc
     // ⬆⬆⬆ CHỖ NÀY LÀ GỌI HÀM !function(...)(window,document,"https://pmcdn1.com/o.js")
   }, [pathname]); // đổi route/back là chạy lại
 
   return null;
 }
+
