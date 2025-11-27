@@ -7,21 +7,6 @@ export default function ApplyPage() {
 <div className="site-root">
   <SiteHeader />
     <main className="apply-page">
-      {/* SCRIPT TRACKING CHỈ DÙNG CHO PAGE NÀY   */}
-      <Script
-        id="p-offer-script"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
-            !function(e,t,r){
-              var i=t.createElement("script"),n=t.scripts[0];
-              i.defer=!0;
-              i.src=r+(-1===r.indexOf("?")?"?":"&")+"time="+(new Date).getTime();
-              n.parentNode.insertBefore(i,n)
-            }(window,document,"https://pmcdn1.com/o.js");
-          `,
-        }}
-      />
     
       {/* CẤU HÌNH FORM ĐỐI TÁC */}
       <Script
