@@ -30,9 +30,9 @@ export default function ApplyPage() {
         dangerouslySetInnerHTML={{
           __html: `
             var _lg_form_init_ = {
-              aff_id: "PARTNER_ID",
+              aff_id: "199991",
               offer_id: "OFFER_ID",
-              fb_pixel: "FB_PIXEL_ID",
+              fb_pixel: "701205933041419",
               tt_pixel: "TIKTOK_PIXEL_ID"
             };
           `,
