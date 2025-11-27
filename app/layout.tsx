@@ -1,6 +1,5 @@
 // app/layout.tsx
 import type { Metadata } from "next";
-import Script from "next/script";
 import "./globals.css";
 import PmLanderReloader from "@/components/sections/PmLanderReloader";
 
@@ -48,9 +47,9 @@ export default function RootLayout({
             `,
           }}
         /> */}
-        <PmLanderReloader />
       </head>
       <body className="page-body">
+        <PmLanderReloader />
       {/* FB Pixel cho toàn site */}
         <Script
           id="fb-pixel"
