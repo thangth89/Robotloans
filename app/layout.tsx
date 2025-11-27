@@ -45,7 +45,7 @@ export default function RootLayout({
               }(window,document,'https://pmcdn1.com/l.js');
             `,
           }}
-        /></script>
+        ></script>
       </head>
 
       <body className="page-body">
