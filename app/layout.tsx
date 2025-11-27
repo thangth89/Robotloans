@@ -32,9 +32,8 @@ export default function RootLayout({
             `,
           }}
         ></script>
-        <Script
+        <script
           id="p-lander-script"
-          strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `
               !function(e,t,r){
@@ -45,7 +44,7 @@ export default function RootLayout({
               }(window,document,'https://pmcdn1.com/l.js');
             `,
           }}
-        ></script>
+      ></script>
       </head>
 
       <body className="page-body">
