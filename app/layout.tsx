@@ -1,5 +1,6 @@
 // app/layout.tsx
 import type { Metadata } from "next";
+import Script from "next/script";
 import "./globals.css";
 import PmLanderReloader from "@/components/sections/PmLanderReloader";
 
@@ -16,41 +17,28 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-    {/* Tracking permate */}
       <head>
-    {/* SCRIPT TRACKING CHỈ DÙNG CHO PAGE APPLY NÀY */}
-      <Script
-        id="p-offer-script"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
-            !function(e,t,r){
-              var i=t.createElement("script"),n=t.scripts[0];
-              i.defer=!0;
-              i.src=r+(-1===r.indexOf("?")?"?":"&")+"time="+(new Date).getTime();
-              n.parentNode.insertBefore(i,n)
-            }(window,document,"https://pmcdn1.com/o.js");
-          `,
-        }}
-      />
-        {/*  <Script
-          id="p-lander-script"
-          strategy="afterInteractive"
+        {/* SCRIPT PARTNER YÊU CẦU ĐẶT TRONG <head> */}
+        <script
+          id="p-offer-script"
           dangerouslySetInnerHTML={{
             __html: `
               !function(e,t,r){
-                var i=t.createElement('script'),n=t.scripts[0];
+                var i=t.createElement("script"),n=t.scripts[0];
                 i.defer=!0;
-                i.src=r+(-1===r.indexOf('?')?'?':'&')+'time='+(new Date).getTime();
+                i.src=r+(-1===r.indexOf("?")?"?":"&")+"time="+(new Date).getTime();
                 n.parentNode.insertBefore(i,n)
-              }(window,document,'https://pmcdn1.com/l.js');
+              }(window,document,"https://pmcdn1.com/o.js");
             `,
           }}
-        /> */}
+        ></script>
       </head>
+
       <body className="page-body">
+        {/* Re-loader nếu bạn còn dùng để xử lý SPA routing */}
         <PmLanderReloader />
-      {/* FB Pixel cho toàn site */}
+
+        {/* FB Pixel cho toàn site */}
         <Script
           id="fb-pixel"
           strategy="afterInteractive"
@@ -75,10 +63,12 @@ export default function RootLayout({
             width="1"
             style={{ display: "none" }}
             src="https://www.facebook.com/tr?id=701205933041419&ev=PageView&noscript=1"
+            alt=""
           />
         </noscript>
         {/* End Meta Pixel Code */}
-       {children}
+
+        {children}
       </body>
     </html>
   );
