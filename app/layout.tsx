@@ -5,7 +5,7 @@ import "./globals.css";
 import PmLanderReloader from "@/components/sections/PmLanderReloader";
 
 export const metadata: Metadata = {
-  title: "Trusted Online Loans – A smarter way to borrow",
+  title: "Robot Loans – A smarter way to borrow",
   description:
     "Get cash fast, deposited right to your bank. Request loans from $200 to $5,000 with all credit scores considered.",
 };
