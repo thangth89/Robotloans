@@ -32,11 +32,10 @@ export default function RootLayout({
             `,
           }}
         ></script>
+      <PmLanderReloader />
       </head>
 
       <body className="page-body">
-        {/* Re-loader nếu bạn còn dùng để xử lý SPA routing */}
-        <PmLanderReloader />
 
         {/* FB Pixel cho toàn site */}
         <Script
