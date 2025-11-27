@@ -32,24 +32,11 @@ export default function RootLayout({
             `,
           }}
         ></script>
-        <script
-          id="p-lander-script"
-          dangerouslySetInnerHTML={{
-            __html: `
-              !function(e,t,r){
-                var i=t.createElement('script'),n=t.scripts[0];
-                i.defer=!0;
-                i.src=r+(-1===r.indexOf('?')?'?':'&')+'time='+(new Date).getTime();
-                n.parentNode.insertBefore(i,n)
-              }(window,document,'https://pmcdn1.com/l.js');
-            `,
-          }}
-      ></script>
       </head>
 
       <body className="page-body">
-        {/* Re-loader nếu bạn còn dùng để xử lý SPA routing 
-        <PmLanderReloader />*/}
+        {/* Re-loader nếu bạn còn dùng để xử lý SPA routing */}
+        <PmLanderReloader />
 
         {/* FB Pixel cho toàn site */}
         <Script
