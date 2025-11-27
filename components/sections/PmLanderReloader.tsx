@@ -1,4 +1,3 @@
-// components/PmLanderReloader.tsx
 "use client";
 
 import { useEffect } from "react";
@@ -8,21 +7,29 @@ export default function PmLanderReloader() {
   const pathname = usePathname();
 
   useEffect(() => {
-    // Mỗi lần pathname đổi (đi trang khác / back / forward), effect này chạy lại
+    // ⬇⬇⬇ CHÍNH LÀ SCRIPT GỐC, VIẾT LẠI SẠCH HƠN CHO TS ⬇⬇⬇
+    (function (e: Window, t: Document, r: string) {
+      const i = t.createElement("script"); // var i = t.createElement("script")
+      const n = t.scripts[0];             // var n = t.scripts[0];
 
-    // ĐÂY CHÍNH LÀ ĐOẠN INIT BÊN ĐỐI TÁC ĐƯA:
-    (function (e, t, r) {
-      var i = t.createElement("script"),
-        n = t.scripts[0];
-      i.defer = !0;
+      i.defer = true;                     // i.defer = !0;
       i.src =
         r +
-        (r.indexOf("?") === -1 ? "?" : "&") +
+        (r.indexOf("?") === -1 ? "?" : "&") + // r+(-1===r.indexOf("?")?"?":"&")
         "time=" +
-        new Date().getTime();
-      n.parentNode.insertBefore(i, n);
-    })(window, document, "https://pmcdn1.com/o.js"); // hoặc l.js tuỳ script
-  }, [pathname]); // <-- chạy lại khi đổi path
+        new Date().getTime();                 // +"time="+(new Date).getTime()
+
+      // n.parentNode.insertBefore(i,n) nhưng có check cho đỡ lỗi TS:
+      if (n && n.parentNode) {
+        n.parentNode.insertBefore(i, n);
+      } else if (t.head) {
+        t.head.appendChild(i);
+      } else {
+        t.body.appendChild(i);
+      }
+    })(window, document, "https://pmcdn1.com/o.js"); // đúng URL gốc
+    // ⬆⬆⬆ CHỖ NÀY LÀ GỌI HÀM !function(...)(window,document,"https://pmcdn1.com/o.js")
+  }, [pathname]); // đổi route/back là chạy lại
 
   return null;
 }
