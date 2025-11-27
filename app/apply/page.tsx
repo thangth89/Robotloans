@@ -16,7 +16,7 @@ export default function ApplyPage() {
           __html: `
             var _lg_form_init_ = {
               aff_id: "199991",
-              offer_id: "OFFER_ID",
+              offer_id: "2527",
               fb_pixel: "701205933041419",
               tt_pixel: "TIKTOK_PIXEL_ID"
             };
