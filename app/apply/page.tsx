@@ -7,7 +7,7 @@ export default function ApplyPage() {
 <div className="site-root">
   <SiteHeader />
     <main className="apply-page">
-      {/* SCRIPT TRACKING CHỈ DÙNG CHO PAGE NÀY */}
+      {/* SCRIPT TRACKING CHỈ DÙNG CHO PAGE NÀY 
       <Script
         id="p-offer-script"
         strategy="afterInteractive"
@@ -22,7 +22,7 @@ export default function ApplyPage() {
           `,
         }}
       />
-
+      */}
       {/* CẤU HÌNH FORM ĐỐI TÁC */}
       <Script
         id="lg-form-init"
