@@ -2,6 +2,7 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import "./globals.css";
+import PmLanderReloader from "@/components/sections/PmLanderReloader";
 
 export const metadata: Metadata = {
   title: "Trusted Online Loans – A smarter way to borrow",
@@ -18,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
     {/* Tracking permate */}
       <head>
-        <Script
+        {/*  <Script
           id="p-lander-script"
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
@@ -31,7 +32,8 @@ export default function RootLayout({
               }(window,document,'https://pmcdn1.com/l.js');
             `,
           }}
-        />
+        /> */}
+        <PmLanderReloader />
       </head>
       <body className="page-body">
       {/* FB Pixel cho toàn site */}
